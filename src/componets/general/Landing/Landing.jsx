@@ -19,7 +19,7 @@ export default function landing() {
           >
             
             <div className="bg-zinc-700  relative w-60 h-56 rounded-t-lg">
-             
+            
               <button className="bg-transparent absolute top-1 right-2 rounded-lg px-1 py-1">
                 <svg
                   className="h-5 w-5"
