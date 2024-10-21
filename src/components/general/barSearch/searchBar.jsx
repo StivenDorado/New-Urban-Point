@@ -3,8 +3,8 @@ import React from 'react';
 
 const SearchBar = () => {
   return (
-    <div className="w-full p-4 bg-gray-200 flex items-center justify-center">
-      <div className="w-full max-w-4xl bg-white rounded-full shadow-md flex items-center p-2 space-x-2">
+    <section className="w-full p-4 flex items-center justify-center">
+      <article className="w-full max-w-4xl bg-white rounded-full shadow-md flex items-center p-2 space-x-2">
         {/* Botón "Fecha de Entrada" */}
         <button variant="outline" className="text-black flex-shrink-0 px-4 py-2 rounded-full border-0 bg-transparent hover:bg-gray-100">
           Fecha de Entrada
@@ -26,8 +26,8 @@ const SearchBar = () => {
         <button variant="outline" className="text-black flex-shrink-0 px-4 py-2 rounded-full border-0 bg-transparent hover:bg-gray-100">
           Filtros
         </button>
-      </div>
-    </div>
+      </article>
+    </section>
   );
 }
 

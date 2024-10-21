@@ -13,6 +13,7 @@ const MenuDesplegable = () => {
         Filtros
       </button>
       {estaAbierto && (
+        // Enlasar filtros
         <div className="menu">
           <a href="#filtro1">Filtro 1</a>
           <a href="#filtro2">Filtro 2</a>

@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-100 p-4 flex justify-between items-center">
+    <header className=" p-4 flex justify-between items-center">
       <div className="text-xl font-bold">Logo UrbanPoint</div>
       <div className="flex-grow text-center">
         <div className="text-center">
